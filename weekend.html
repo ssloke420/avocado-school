@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>La Escuela De Aguacates</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <style>
+      #title {
+        font-size: 40pt;
+        background-color: darkgreen;
+        color: yellow;
+        font-family: Calibril;
+        text-align: center; 
+        margin-bottom: 0;
+      }
+      #banner {
+            text-align: center;
+            background-color: tan;
+            color: blue;
+      }
+      body {
+            text-align: center;
+            background-color: lightgreen;
+      }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: darkgreen; /* Makes the navbar full-width */
+    width: 100%;
+}
 
+li {
+    display: inline-block; /* Makes items appear inline while allowing block behavior */
+    margin: 0;
+}
+
+li:not(:last-child) {
+    border-right: solid white 5px; /* Adds border between items */
+}
+
+a {
+    display: inline-block; /* Ensures the links stay within `li` */
+    padding: 10px 15px;
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.active {
+    background-color: blue;
+}
+  p {
+    color: blue;
+  }
+
+  </style>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <h1 id="title">La Escuela De Aguacates</h1>
+    <p id="banner">¡Una Experiencia DeliciInosa En Mexico! <br> ¡Estudia Aguacates Con Nosotros En La Escuela De Aguacates!</p>
+<ul>
+  <li><a href="index.html">Incio</a></li>
+  <li><a href="schedule.html">Horario</a></li>
+  <li><a href="weekend.html">Los Fines de Semanas</a></li>
+  <li><a href="conclusion.html">Conclusión</a></li>
+</ul>
+    <br>
+    <h1 style="color:green;">Tu Horario</h1>
+    <p>Despues de escuela, los estudiantes jugar videojuegos, comer en restaurante, y cultivar aguacates.</p>
+    <h3>Sabados y Domingos</h3>
+    <ul style="border: red 3px double; font-size: 18pt; float: left; background-color: yellow; color: red;">
+      <li>Jugar Videojuegos</li>
+      <li>Comer en Restaurantes</li>
+      <li>Cultivar Aguacates</li>
+      <li>Cocinar Panqueques</li>
+    </ul>
+    <img style="float: right; width: 40vw; height: auto;" src="student.jpeg"/>
+  </body>
+</html>
