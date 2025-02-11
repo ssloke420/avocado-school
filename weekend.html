@@ -29,7 +29,10 @@
     background-color: darkgreen; /* Makes the navbar full-width */
     width: 100%;
 }
-
+li {
+  display: inline-block;
+  margin: 0;
+}
 
 a {
     display: inline-block; /* Ensures the links stay within `li` */
@@ -66,10 +69,10 @@ a.active {
     <p>Despues de escuela, los estudiantes jugar videojuegos, comer en restaurante, y cultivar aguacates.</p>
     <h1 style="color: blue; font-size: 20pt;">Sabados y Domingos</h3>
     <ul style="border: red 3px double; font-size: 18pt; float: center; background-color: yellow; color: red;">
-      <li>Jugar Videojuegos</li>
-      <li>Comer en Restaurantes</li>
-      <li>Cultivar Aguacates</li>
-      <li>Cocinar Panqueques</li>
+      <li style="display: block; margin: auto;">Jugar Videojuegos</li>
+      <li style="display: block; margin: auto;">Comer en Restaurantes</li>
+      <li style="display: block; margin: auto;">Cultivar Aguacates</li>
+      <li style="display: block; margin: auto;">Cocinar Panqueques</li>
     </ul>
     <img style="float: center; width: auto; height: 50vh;" src="student.jpeg"/>
   </body>
